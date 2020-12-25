@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		775343F52594786600A3E83B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775343F42594786600A3E83B /* AppDelegate.swift */; };
+		775343F72594786600A3E83B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775343F62594786600A3E83B /* SceneDelegate.swift */; };
+		775343F92594786600A3E83B /* TwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775343F82594786600A3E83B /* TwitterTableViewController.swift */; };
+		775343FE2594786900A3E83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775343FD2594786900A3E83B /* Assets.xcassets */; };
+		775344012594786900A3E83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775343FF2594786900A3E83B /* LaunchScreen.storyboard */; };
+		7753440C2594786900A3E83B /* OneLab_TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7753440B2594786900A3E83B /* OneLab_TwitterTests.swift */; };
+		775344172594786900A3E83B /* OneLab_TwitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775344162594786900A3E83B /* OneLab_TwitterUITests.swift */; };
+		7753443725947AC600A3E83B /* TwitterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7753443625947AC600A3E83B /* TwitterTableViewCell.swift */; };
+		7753443F25948B7C00A3E83B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7753443E25948B7C00A3E83B /* Post.swift */; };
+		7877721F570AFC3234D8267C /* Pods_OneLab_Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A52D54622A8414023EDA22 /* Pods_OneLab_Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		775344082594786900A3E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775343E92594786600A3E83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775343F02594786600A3E83B;
+			remoteInfo = "OneLab Twitter";
+		};
+		775344132594786900A3E83B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 775343E92594786600A3E83B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 775343F02594786600A3E83B;
+			remoteInfo = "OneLab Twitter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2851ADAFC40E32804B80CDFB /* Pods-OneLab Twitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLab Twitter.release.xcconfig"; path = "Target Support Files/Pods-OneLab Twitter/Pods-OneLab Twitter.release.xcconfig"; sourceTree = "<group>"; };
+		775343F12594786600A3E83B /* OneLab Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneLab Twitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775343F42594786600A3E83B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		775343F62594786600A3E83B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		775343F82594786600A3E83B /* TwitterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTableViewController.swift; sourceTree = "<group>"; };
+		775343FD2594786900A3E83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		775344002594786900A3E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775344022594786900A3E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775344072594786900A3E83B /* OneLab TwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneLab TwitterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7753440B2594786900A3E83B /* OneLab_TwitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLab_TwitterTests.swift; sourceTree = "<group>"; };
+		7753440D2594786900A3E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775344122594786900A3E83B /* OneLab TwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneLab TwitterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		775344162594786900A3E83B /* OneLab_TwitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLab_TwitterUITests.swift; sourceTree = "<group>"; };
+		775344182594786900A3E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7753443625947AC600A3E83B /* TwitterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterTableViewCell.swift; sourceTree = "<group>"; };
+		7753443E25948B7C00A3E83B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D6D752D4F0D1937F4530BD5F /* Pods-OneLab Twitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneLab Twitter.debug.xcconfig"; path = "Target Support Files/Pods-OneLab Twitter/Pods-OneLab Twitter.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A52D54622A8414023EDA22 /* Pods_OneLab_Twitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneLab_Twitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		775343EE2594786600A3E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7877721F570AFC3234D8267C /* Pods_OneLab_Twitter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775344042594786900A3E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7753440F2594786900A3E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		775343E82594786600A3E83B = {
+			isa = PBXGroup;
+			children = (
+				775343F32594786600A3E83B /* OneLab Twitter */,
+				7753440A2594786900A3E83B /* OneLab TwitterTests */,
+				775344152594786900A3E83B /* OneLab TwitterUITests */,
+				775343F22594786600A3E83B /* Products */,
+				EE599D3C77B96ABCC6DF8D81 /* Pods */,
+				E75998FDACC077DC51D6B398 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		775343F22594786600A3E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				775343F12594786600A3E83B /* OneLab Twitter.app */,
+				775344072594786900A3E83B /* OneLab TwitterTests.xctest */,
+				775344122594786900A3E83B /* OneLab TwitterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		775343F32594786600A3E83B /* OneLab Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				7753442F2594791700A3E83B /* Supporting Files */,
+				775343F82594786600A3E83B /* TwitterTableViewController.swift */,
+				7753443625947AC600A3E83B /* TwitterTableViewCell.swift */,
+				7753443E25948B7C00A3E83B /* Post.swift */,
+				775344022594786900A3E83B /* Info.plist */,
+			);
+			path = "OneLab Twitter";
+			sourceTree = "<group>";
+		};
+		7753440A2594786900A3E83B /* OneLab TwitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7753440B2594786900A3E83B /* OneLab_TwitterTests.swift */,
+				7753440D2594786900A3E83B /* Info.plist */,
+			);
+			path = "OneLab TwitterTests";
+			sourceTree = "<group>";
+		};
+		775344152594786900A3E83B /* OneLab TwitterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				775344162594786900A3E83B /* OneLab_TwitterUITests.swift */,
+				775344182594786900A3E83B /* Info.plist */,
+			);
+			path = "OneLab TwitterUITests";
+			sourceTree = "<group>";
+		};
+		7753442F2594791700A3E83B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				775343FD2594786900A3E83B /* Assets.xcassets */,
+				775343F42594786600A3E83B /* AppDelegate.swift */,
+				775343F62594786600A3E83B /* SceneDelegate.swift */,
+				775343FF2594786900A3E83B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E75998FDACC077DC51D6B398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8A52D54622A8414023EDA22 /* Pods_OneLab_Twitter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE599D3C77B96ABCC6DF8D81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6D752D4F0D1937F4530BD5F /* Pods-OneLab Twitter.debug.xcconfig */,
+				2851ADAFC40E32804B80CDFB /* Pods-OneLab Twitter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775343F02594786600A3E83B /* OneLab Twitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7753441B2594786900A3E83B /* Build configuration list for PBXNativeTarget "OneLab Twitter" */;
+			buildPhases = (
+				1E30D09DD57FA68D908AE461 /* [CP] Check Pods Manifest.lock */,
+				775343ED2594786600A3E83B /* Sources */,
+				775343EE2594786600A3E83B /* Frameworks */,
+				775343EF2594786600A3E83B /* Resources */,
+				B746E7942A7833D567BE56BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OneLab Twitter";
+			productName = "OneLab Twitter";
+			productReference = 775343F12594786600A3E83B /* OneLab Twitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		775344062594786900A3E83B /* OneLab TwitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7753441E2594786900A3E83B /* Build configuration list for PBXNativeTarget "OneLab TwitterTests" */;
+			buildPhases = (
+				775344032594786900A3E83B /* Sources */,
+				775344042594786900A3E83B /* Frameworks */,
+				775344052594786900A3E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775344092594786900A3E83B /* PBXTargetDependency */,
+			);
+			name = "OneLab TwitterTests";
+			productName = "OneLab TwitterTests";
+			productReference = 775344072594786900A3E83B /* OneLab TwitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		775344112594786900A3E83B /* OneLab TwitterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 775344212594786900A3E83B /* Build configuration list for PBXNativeTarget "OneLab TwitterUITests" */;
+			buildPhases = (
+				7753440E2594786900A3E83B /* Sources */,
+				7753440F2594786900A3E83B /* Frameworks */,
+				775344102594786900A3E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				775344142594786900A3E83B /* PBXTargetDependency */,
+			);
+			name = "OneLab TwitterUITests";
+			productName = "OneLab TwitterUITests";
+			productReference = 775344122594786900A3E83B /* OneLab TwitterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		775343E92594786600A3E83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					775343F02594786600A3E83B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					775344062594786900A3E83B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 775343F02594786600A3E83B;
+					};
+					775344112594786900A3E83B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 775343F02594786600A3E83B;
+					};
+				};
+			};
+			buildConfigurationList = 775343EC2594786600A3E83B /* Build configuration list for PBXProject "OneLab Twitter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 775343E82594786600A3E83B;
+			productRefGroup = 775343F22594786600A3E83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775343F02594786600A3E83B /* OneLab Twitter */,
+				775344062594786900A3E83B /* OneLab TwitterTests */,
+				775344112594786900A3E83B /* OneLab TwitterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		775343EF2594786600A3E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775344012594786900A3E83B /* LaunchScreen.storyboard in Resources */,
+				775343FE2594786900A3E83B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775344052594786900A3E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775344102594786900A3E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E30D09DD57FA68D908AE461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneLab Twitter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B746E7942A7833D567BE56BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneLab Twitter/Pods-OneLab Twitter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OneLab Twitter/Pods-OneLab Twitter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OneLab Twitter/Pods-OneLab Twitter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		775343ED2594786600A3E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775343F92594786600A3E83B /* TwitterTableViewController.swift in Sources */,
+				775343F52594786600A3E83B /* AppDelegate.swift in Sources */,
+				775343F72594786600A3E83B /* SceneDelegate.swift in Sources */,
+				7753443F25948B7C00A3E83B /* Post.swift in Sources */,
+				7753443725947AC600A3E83B /* TwitterTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775344032594786900A3E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7753440C2594786900A3E83B /* OneLab_TwitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7753440E2594786900A3E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775344172594786900A3E83B /* OneLab_TwitterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		775344092594786900A3E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775343F02594786600A3E83B /* OneLab Twitter */;
+			targetProxy = 775344082594786900A3E83B /* PBXContainerItemProxy */;
+		};
+		775344142594786900A3E83B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 775343F02594786600A3E83B /* OneLab Twitter */;
+			targetProxy = 775344132594786900A3E83B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		775343FF2594786900A3E83B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				775344002594786900A3E83B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		775344192594786900A3E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7753441A2594786900A3E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7753441C2594786900A3E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6D752D4F0D1937F4530BD5F /* Pods-OneLab Twitter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA9MF4N57;
+				INFOPLIST_FILE = "OneLab Twitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "realikh.OneLab-Twitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7753441D2594786900A3E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2851ADAFC40E32804B80CDFB /* Pods-OneLab Twitter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA9MF4N57;
+				INFOPLIST_FILE = "OneLab Twitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "realikh.OneLab-Twitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7753441F2594786900A3E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA9MF4N57;
+				INFOPLIST_FILE = "OneLab TwitterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "realikh.OneLab-TwitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneLab Twitter.app/OneLab Twitter";
+			};
+			name = Debug;
+		};
+		775344202594786900A3E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA9MF4N57;
+				INFOPLIST_FILE = "OneLab TwitterTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "realikh.OneLab-TwitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneLab Twitter.app/OneLab Twitter";
+			};
+			name = Release;
+		};
+		775344222594786900A3E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA9MF4N57;
+				INFOPLIST_FILE = "OneLab TwitterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "realikh.OneLab-TwitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneLab Twitter";
+			};
+			name = Debug;
+		};
+		775344232594786900A3E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AHA9MF4N57;
+				INFOPLIST_FILE = "OneLab TwitterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "realikh.OneLab-TwitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneLab Twitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775343EC2594786600A3E83B /* Build configuration list for PBXProject "OneLab Twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775344192594786900A3E83B /* Debug */,
+				7753441A2594786900A3E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7753441B2594786900A3E83B /* Build configuration list for PBXNativeTarget "OneLab Twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7753441C2594786900A3E83B /* Debug */,
+				7753441D2594786900A3E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7753441E2594786900A3E83B /* Build configuration list for PBXNativeTarget "OneLab TwitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7753441F2594786900A3E83B /* Debug */,
+				775344202594786900A3E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		775344212594786900A3E83B /* Build configuration list for PBXNativeTarget "OneLab TwitterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775344222594786900A3E83B /* Debug */,
+				775344232594786900A3E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 775343E92594786600A3E83B /* Project object */;
+}
